@@ -1,0 +1,413 @@
+.stMainBlockContainer {
+  max-width: 100rem;
+}
+
+.persona-header {
+  text-align: center;
+  margin-bottom: 16px !important;
+  padding: 0 !important;
+}
+
+.full-width-success {
+  background-color: #dff0d8; /* Light green background like st.success */
+  color: #3c763d; /* Dark green text */
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+}
+
+.add-space {
+  margin: 0;
+}
+
+.stDownloadButton {
+  text-align: center;
+}
+
+.st-key-generate_ai .stButton button,
+.st-key-submit .stButton button,
+.stDownloadButton button {
+  background: #3498db;
+  border-color: #3498db;
+}
+
+.st-key-generate_ai .stButton button:focus,
+.st-key-submit .stButton button:focus,
+.stDownloadButton button:focus {
+  color: #fff;
+  opacity: 90%;
+}
+
+.st-key-generate_ai .stButton button:hover,
+.st-key-submit .stButton button:hover,
+.stDownloadButton button:hover {
+  background: #3498db;
+  opacity: 50%;
+}
+
+.st-key-json_export_button {
+  text-align: center;
+}
+
+/* Basic Template Styles */
+/* .persona-card-basic {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
+  background: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.persona-card-basic h2 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+.persona-card-basic .subtitle {
+  color: #7f8c8d;
+  margin-top: 0;
+  font-size: 0.9em;
+}
+.persona-card-basic .persona-section {
+  margin: 20px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.persona-card-basic .persona-section:last-child {
+  border-bottom: none;
+}
+.persona-card-basic h3 {
+  color: #3498db;
+  margin-bottom: 10px;
+} */
+.persona-card-basic {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.persona-card-basic .persona-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.persona-card-basic .persona-header h2 {
+  margin-bottom: 5px;
+  padding-bottom: 0;
+  color: #333;
+}
+
+.persona-card-basic .persona-header .subtitle {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.persona-card-basic .persona-section {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.persona-card-basic .persona-section:last-child {
+  border-bottom: none;
+}
+
+.persona-card-basic .persona-section h3 {
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.persona-card-basic .persona-section p {
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.persona-card-basic .persona-section p strong {
+  font-weight: bold;
+  color: #333;
+  margin-right: 5px;
+}
+
+/* Modern Template - Stacked Layout Styles */
+/* .persona-card-modern {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.persona-card-modern h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+.persona-card-modern .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.persona-card-modern .tag {
+  background: #f1f5f9;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  color: #4b5563;
+}
+.persona-card-modern .details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+.persona-card-modern .detail-card {
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+.persona-card-modern .detail-card h3 {
+  margin-top: 0;
+  color: #3498db;
+  font-size: 1em;
+} */
+.persona-card-modern-stacked {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.persona-card-modern-stacked .user-photo-modern-stacked img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px auto;
+  display: block;
+}
+
+.persona-card-modern-stacked .modern-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.persona-card-modern-stacked .modern-header h2 {
+  color: #2c3e50;
+  margin-bottom: 8px;
+  padding-bottom: 0;
+}
+
+.persona-card-modern-stacked .modern-header .subtitle {
+  color: #777;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.persona-card-modern-stacked .modern-header .tech-savvy {
+  color: #3498db;
+  font-size: 0.95em;
+}
+
+.persona-card-modern-stacked .modern-section {
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.persona-card-modern-stacked .modern-section:last-child {
+  border-bottom: none;
+}
+
+.persona-card-modern-stacked .modern-section h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.15em;
+}
+
+.persona-card-modern-stacked .modern-section p {
+  color: #555;
+  margin-bottom: 0;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* Professional Template Styles with Icons */
+.persona-card-professional {
+  border: 1px solid #aaa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+.persona-card-professional .professional-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.persona-card-professional .professional-header .user-photo-professional img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.persona-card-professional .professional-header h2 {
+  color: #222;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+
+.persona-card-professional .professional-header .title {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 3px;
+}
+
+.persona-card-professional .professional-header .location {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.persona-card-professional .professional-section {
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.persona-card-professional .professional-section:last-child {
+  border-bottom: none;
+}
+
+.persona-card-professional .professional-section h3 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  border-bottom: 2px solid #555;
+  padding-bottom: 5px;
+  display: flex; /* Align icon and text */
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.persona-card-professional .professional-section h3::before {
+  /* You could style a pseudo-element for more control if needed */
+  /* content: ""; */
+  /* width: 20px; */
+  /* height: 20px; */
+  /* background-color: black; */
+  /* border-radius: 50%; */
+  /* display: inline-block; */
+  /* margin-right: 8px; */
+}
+
+.persona-card-professional .professional-section p {
+  margin-bottom: 8px;
+  color: #444;
+  line-height: 1.5;
+  display: flex; /* Align icon and text */
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.persona-card-professional .professional-section p strong {
+  font-weight: bold;
+  color: #222;
+  margin-right: 5px;
+}
+
+.persona-card-professional .professional-section p::before {
+  /* You could style a pseudo-element for icons here as well */
+  /* content: "•"; /* Simple bullet point as an example */
+  /* color: black; */
+  /* font-size: 1.2em; */
+  /* margin-right: 8px; */
+}
+
+/* Creative Template Styles with Icons */
+.persona-card-creative {
+  background-color: #e0f7fa; /* Light Teal */
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid #b2ebf2;
+}
+
+.persona-card-creative .creative-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.persona-card-creative .creative-header .user-photo-creative img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.persona-card-creative .creative-header h1 {
+  color: #00838f; /* Dark Teal */
+  margin-bottom: 5px;
+  font-size: 2.5em;
+}
+
+.persona-card-creative .creative-header .tagline {
+  color: #26a69a; /* Medium Teal */
+  font-size: 1.1em;
+}
+
+.persona-card-creative .creative-section {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px dashed #80cbc4; /* Light Medium Teal */
+}
+
+.persona-card-creative .creative-section:last-child {
+  border-bottom: none;
+}
+
+.persona-card-creative .creative-section h2 {
+  color: #00acc1; /* Bright Teal */
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.8em;
+  display: flex; /* Align icon and text */
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.persona-card-creative .creative-section p {
+  margin-bottom: 10px;
+  color: #333;
+  line-height: 1.6;
+  display: flex; /* Align icon and text */
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.persona-card-creative .creative-section p strong {
+  font-weight: bold;
+  color: #00695c; /* Darker Teal */
+  margin-right: 5px;
+}
+
+/* Optional: Style for the icons themselves */
+.persona-card-creative .creative-section h2::before,
+.persona-card-creative .creative-section p strong::before {
+  /* You could use pseudo-elements for more stylized icons */
+  /* content: "🎨"; /* Example creative icon */
+  /* font-size: 1.2em; */
+  /* margin-right: 8px; */
+  /* color: #00838f; */
+}
+
+/* Using Unicode directly in the text for now */

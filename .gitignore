@@ -1,0 +1,5 @@
+index_*.py
+.env
+.streamlit
+.streamlit/secrets.toml
+lib/__pycache__

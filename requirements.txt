@@ -1,0 +1,11 @@
+streamlit
+google-generativeai
+requests
+fpdf2  # Or fpdf, depending on the actual package name installed
+Pillow
+huggingface-hub
+diffusers
+transformers
+accelerate
+wkhtmltopdf
+pdfkit
