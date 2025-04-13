@@ -999,7 +999,25 @@ with col2:
                 k: v for k, v in st.session_state.items()
                 if not k.startswith("_") and k != 'user_photo' and k != 'user_photo_bytes'
             }
-            json_string = json.dumps(persona_data, indent=2).encode('utf-8')
+
+            # FIX: Need to Refactor the Object Property Keys
+            person_data_json_obj = persona_data.copy()
+
+            person_data_json_obj.pop("active_expander", None)
+            person_data_json_obj.pop("json_export_button", None)
+            person_data_json_obj.pop("submitted", None)
+            person_data_json_obj.pop("json_download_data", None)
+            person_data_json_obj.pop("generate_ai", None)
+            person_data_json_obj.pop("submit", None)
+            person_data_json_obj.pop("pdf_download_button", None)
+            person_data_json_obj.pop("initialized", None)
+            person_data_json_obj.pop("expander_changed", None)
+            person_data_json_obj.pop("templates", None)
+            person_data_json_obj.pop("show_download", None)
+            person_data_json_obj.pop("json_download_filename", None)
+
+            json_string = json.dumps(
+                person_data_json_obj, indent=2).encode('utf-8')
             st.session_state['json_download_data'] = json_string
             st.session_state['json_download_filename'] = "persona.json"
             st.session_state['show_download'] = True
