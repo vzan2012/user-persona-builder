@@ -120,6 +120,7 @@
   color: #555;
   margin-top: 0;
   margin-bottom: 10px;
+  padding-bottom: 0;
 }
 
 .persona-card-basic .persona-section p {
@@ -381,18 +382,23 @@
   margin-top: 0;
   margin-bottom: 12px;
   font-size: 1.8em;
-  display: flex; /* Align icon and text */
+  padding-bottom: 0;
+  /* display: flex;  */
+  /* Align icon and text */
   align-items: center;
-  gap: 8px; /* Space between icon and text */
+  /* gap: 8px;  */
+  /* Space between icon and text */
 }
 
 .persona-card-creative .creative-section p {
   margin-bottom: 10px;
   color: #333;
   line-height: 1.6;
-  display: flex; /* Align icon and text */
+  /* display: flex;  */
+  /* Align icon and text */
   align-items: center;
-  gap: 8px; /* Space between icon and text */
+  /* gap: 8px; */
+  /* Space between icon and text */
 }
 
 .persona-card-creative .creative-section p strong {
