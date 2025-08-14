@@ -53,35 +53,6 @@
 }
 
 /* Basic Template Styles */
-/* .persona-card-basic {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 25px;
-  background: white;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-.persona-card-basic h2 {
-  color: #2c3e50;
-  margin-bottom: 5px;
-}
-.persona-card-basic .subtitle {
-  color: #7f8c8d;
-  margin-top: 0;
-  font-size: 0.9em;
-}
-.persona-card-basic .persona-section {
-  margin: 20px 0;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #eee;
-}
-.persona-card-basic .persona-section:last-child {
-  border-bottom: none;
-}
-.persona-card-basic h3 {
-  color: #3498db;
-  margin-bottom: 10px;
-} */
 .persona-card-basic {
   border: 1px solid #ddd;
   padding: 20px;
@@ -135,45 +106,6 @@
 }
 
 /* Modern Template - Stacked Layout Styles */
-/* .persona-card-modern {
-  background: white;
-  border-radius: 12px;
-  padding: 25px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.persona-card-modern h2 {
-  color: #2c3e50;
-  margin-bottom: 10px;
-}
-.persona-card-modern .tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-.persona-card-modern .tag {
-  background: #f1f5f9;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 0.8em;
-  color: #4b5563;
-}
-.persona-card-modern .details-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 15px;
-}
-.persona-card-modern .detail-card {
-  background: #f8fafc;
-  padding: 15px;
-  border-radius: 8px;
-  border-left: 4px solid #3498db;
-}
-.persona-card-modern .detail-card h3 {
-  margin-top: 0;
-  color: #3498db;
-  font-size: 1em;
-} */
 .persona-card-modern-stacked {
   background-color: #fff;
   border-radius: 8px;
@@ -299,17 +231,6 @@
   gap: 8px; /* Space between icon and text */
 }
 
-.persona-card-professional .professional-section h3::before {
-  /* You could style a pseudo-element for more control if needed */
-  /* content: ""; */
-  /* width: 20px; */
-  /* height: 20px; */
-  /* background-color: black; */
-  /* border-radius: 50%; */
-  /* display: inline-block; */
-  /* margin-right: 8px; */
-}
-
 .persona-card-professional .professional-section p {
   margin-bottom: 8px;
   color: #444;
@@ -323,14 +244,6 @@
   font-weight: bold;
   color: #222;
   margin-right: 5px;
-}
-
-.persona-card-professional .professional-section p::before {
-  /* You could style a pseudo-element for icons here as well */
-  /* content: "•"; /* Simple bullet point as an example */
-  /* color: black; */
-  /* font-size: 1.2em; */
-  /* margin-right: 8px; */
 }
 
 /* Creative Template Styles with Icons */
@@ -383,22 +296,14 @@
   margin-bottom: 12px;
   font-size: 1.8em;
   padding-bottom: 0;
-  /* display: flex;  */
-  /* Align icon and text */
   align-items: center;
-  /* gap: 8px;  */
-  /* Space between icon and text */
 }
 
 .persona-card-creative .creative-section p {
   margin-bottom: 10px;
   color: #333;
   line-height: 1.6;
-  /* display: flex;  */
-  /* Align icon and text */
   align-items: center;
-  /* gap: 8px; */
-  /* Space between icon and text */
 }
 
 .persona-card-creative .creative-section p strong {
@@ -406,15 +311,3 @@
   color: #00695c; /* Darker Teal */
   margin-right: 5px;
 }
-
-/* Optional: Style for the icons themselves */
-.persona-card-creative .creative-section h2::before,
-.persona-card-creative .creative-section p strong::before {
-  /* You could use pseudo-elements for more stylized icons */
-  /* content: "🎨"; /* Example creative icon */
-  /* font-size: 1.2em; */
-  /* margin-right: 8px; */
-  /* color: #00838f; */
-}
-
-/* Using Unicode directly in the text for now */
