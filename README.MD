@@ -70,7 +70,7 @@ Add your API keys to **.streamlit/secrets.toml**
 ```toml
 GEMINI_API_KEY = "your_key"
 STABILITY_API_KEY = "your_key"
-HUGGINGFACE_TOKEN="your_key"`
+HUGGINGFACE_TOKEN="your_key"
 ```
 
 Create an account in the Gemini Developer platform, Hugging Face and stability website to get the API keys.
