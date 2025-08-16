@@ -2,7 +2,7 @@
 
 Generate professional user personas with AI in a few seconds. Perfect for UX designers, product managers, and researchers.
 
-![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)(https://user-persona-builder-xvkeyveerkywcdgs6qtppw.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://user-persona-builder-xvkeyveerkywcdgs6qtppw.streamlit.app/)
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
