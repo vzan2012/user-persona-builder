@@ -18,23 +18,20 @@ def generate_ai_avatar_by_HFModels():
             headers = {"Authorization": f"Bearer {HUGGINGFACE_TOKEN}"}
 
         prompt = f"""
-            Generate a professional profile photo matching these SPECIFIC characteristics:
-            1. PERSON: {st.session_state['name']} ({st.session_state['age']} years old)
-            2. GENDER: {st.session_state['gender']} (strictly follow this)
-            3. OCCUPATION: {st.session_state['occupation']}
+        Professional LinkedIn profile photo of {st.session_state['name']}, {st.session_state['age']}-year-old {st.session_state['gender'].lower()} {st.session_state['occupation'].lower()}.
 
-            STYLE REQUIREMENTS:
-            - Corporate headshot, hyper-realistic
-            - Gender-appropriate professional attire
-            - {st.session_state['gender']}-typical facial features
-            - Studio lighting, neutral gray background
-            - High detail (256x256 resolution)
+        **Must Include:**
+        - Hyper-realistic corporate headshot
+        - {st.session_state['gender']}-appropriate business attire (e.g., {"suit and tie" if st.session_state['gender'] == "Male" else "blazer and blouse"})
+        - Clear {st.session_state['gender'].lower()} facial features
+        - Neutral gray studio background
+        - High-resolution (512x512, then downscaled to 256x256 for crispness)
 
-            RULES:
-            - MUST respect specified gender
-            - NO gender ambiguity
-            - NO artistic interpretations
-            - Focus on professional appearance
+        **Rules:**
+        1. SINGLE SUBJECT ONLY (no tiled/multiple images)
+        2. Strictly follow specified gender/age/occupation
+        3. No filters/artistic styles (photorealistic only)
+        4. Professional expression (approachable but formal)
         """
 
         payload = {"inputs": prompt}
